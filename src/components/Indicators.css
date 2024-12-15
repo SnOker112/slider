@@ -1,0 +1,16 @@
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicator {
+    font-size: 20px;
+    color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    color: #007bff;
+}
